@@ -1,0 +1,54 @@
+{
+  "beforeSend": [
+    "Amplitude Error",
+    "An operation that changes interface state is in progress",
+    "An operation that changes the device state is in progress",
+    "Could not fetch fee.json",
+    "Could not fetch gicwalletpro-ignore-errors.json",
+    "Could not fetch nft.json",
+    "Could not fetch gicwalletpro_blacklist.json",
+    "Failed to fetch",
+    "FILE_ERROR_NO_SPACE",
+    "Must be handling a user gesture to show a permission request",
+    "NetworkError when attempting to fetch resource",
+    "Non-Error exception captured with keys: message",
+    "No device selected",
+    "No Ledger device found \\(timeout\\)",
+    "Request is rejected on ledger",
+    "SecurityError: Access denied",
+    "The device must be opened first",
+    "The device was disconnected",
+    "The operation was aborted",
+    "Unable to claim interface"
+  ],
+  "beforeSendAccounts": [],
+  "beforeSendBackground": [
+    "Failed to fetch",
+    "NetworkError when attempting to fetch resource",
+    "Error in invocation of storage.get"
+  ],
+  "beforeSendPopup": [
+    "Failed to fetch",
+    "NetworkError when attempting to fetch resource"
+  ],
+  "contentScriptApprove": [
+    "Accounts balance errors",
+    "Address or alias from other network",
+    "Alias already claimed",
+    "Attempt to transfer unavailable funds",
+    "Cannot lease more than own",
+    "Error while executing (account|token)-script",
+    "failed to parse json message",
+    "Fee for IssueTransaction \\(.+?\\) does not exceed minimal value of",
+    "Lease with id=.* not found",
+    "non-positive amount",
+    "ScriptParseError",
+    "Too big sequence requested",
+    "Transaction is not allowed by (account|token)-script",
+    "Transaction sent from smart account. Requires \\d+ extra fee"
+  ],
+  "popupApprove": [
+    "Transaction is not allowed by (account|token)-script",
+    "User denied message"
+  ]
+}
